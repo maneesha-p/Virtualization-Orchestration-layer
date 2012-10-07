@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#=====================================================================================
+#
+#      Filename:  script.sh
+#
+#   Description:  Orchestration layer
+#
+#        Author:  Sandeep Panem (201207659)
+#
+#=====================================================================================
+#
+
+echo installing software
+echo
+echo
+echo
+
+apt-get install python-bottle
+
+echo
+echo
+echo
+echo copying files to required machines
+
+
+echo
+echo 
+echo server running
+echo
+echo
+python src/script.py $1 $2 $3&
